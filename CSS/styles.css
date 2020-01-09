@@ -105,7 +105,21 @@ h1 {
   font-style: italic;
 }
 
+/** 
+ * Add a font weight for tags class &
+ * comma before its printed to page
+ */
+
+.tags {
+  font-weight: bold;
+}
+
 .citation:before {
+  content: ", ";
+  font-style: normal;
+}
+
+.tags:before {
   content: ", ";
   font-style: normal;
 }
